@@ -1,0 +1,22 @@
+{
+  "name": "webext-bridge-bug",
+  "version": "1.0.0",
+  "description": "Minimal project to showcase error",
+  "main": "backgound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatdet/webext-bridge-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatdet/webext-bridge-bug/issues"
+  },
+  "homepage": "https://github.com/Fatdet/webext-bridge-bug#readme",
+  "dependencies": {
+    "webext-bridge": "^6.0.0-rc3"
+  }
+}

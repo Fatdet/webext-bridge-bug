@@ -1,0 +1,15 @@
+{
+    "name": "Bridge bug",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {},
+    "content_scripts": [
+        {
+            "matches": ["https://*/*", "http://*/*"],
+            "js":["content-script.js"]
+        }
+    ]
+  }
